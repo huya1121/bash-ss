@@ -1,9 +1,9 @@
 #!/bin/bash
 echo 'y' | cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime > /dev/null 2>&1
-yum install python-setuptools && easy_install pip
+yum install -y python-setuptools && easy_install pip
 echo -e "\033[31m install python successfully\033[0m"
 sleep 2
-yum install git
+yum install -y git
 echo -e "\033[31m install python successfully\033[0m"
 yum -y groupinstall "Development Tools"
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.10/libsodium-1.0.10.tar.gz
