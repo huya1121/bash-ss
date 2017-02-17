@@ -13,6 +13,7 @@ var SECTIONS = [
     {
         "name":"gfw",
         "proxy":"gfw"
+        "proxy":"telegram"
     }
 ];
 
@@ -40,6 +41,13 @@ var ALL = {
         "domain":[
         ]
     },
+    "telegram":{
+        "net":[
+            "91.108.56.0/22",
+            "91.108.4.0/22",
+            "109.239.140.0/24",
+            "149.154.160.0/20",
+        ],
     "gfw":{
         "domain":[
         	".path.com",
